@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>哈囉</title>
+  </head>
+  <body>
+    <div class="container-sm text-left p-3">
+      <p>逐筆清空 Canva 垃圾桶</p>
+      <form>
+        <div class="input-group input-group-sm mb-3">
+          <span class="input-group-text">請輸入預計刪除照片數量</span>
+          <input
+            id="photoCount"
+            type="text"
+            class="form-control"
+            aria-label="input"
+            aria-describedby="inputGroup-sizing-sm"
+          />
+        </div>
+        <button id="reset" type="reset" class="btn btn-secondary btn-sm">
+          清空
+        </button>
+        <button id="excute" type="button" class="btn btn-success btn-sm">
+          執行
+        </button>
+        <button id="stop" type="button" class="btn btn-danger btn-sm">
+          停止
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

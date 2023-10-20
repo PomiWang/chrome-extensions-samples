@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Canva 批次清除垃圾桶",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "batch-delete.html",
+    "default_icon": "trashcan.png"
+  }
+}
